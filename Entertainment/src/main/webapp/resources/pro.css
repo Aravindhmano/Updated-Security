@@ -1,0 +1,127 @@
+@CHARSET "ISO-8859-1";
+/* Bordered form */
+#h
+{
+	width:100%;
+	height:100px;
+	border:1px solid black;
+	background:white;
+	
+
+}
+
+form {
+    border: 3px solid #f1f1f1;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+    width: 25%;
+    padding: 12px 20px;
+    margin: 10px 0;
+   
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 11px 40px;
+    margin: 10px 2px;
+    border: none;
+    cursor: pointer;
+    width:auto;
+    position:relative;
+    left:210px;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+    opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+	position:relative;
+	left:225px;
+    width: auto;
+    padding: 10px 35px;
+    background-color: #f44336;
+    
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+/* Add padding to containers */
+.container {
+	
+    
+}
+
+/* The "Forgot password" text */
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+span.pswd {
+	position:relative;
+	left:110px;
+    float: right;
+    padding-top: 16px;
+}
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 25px) {
+    span.psw {
+        
+        float: none;
+    }
+    .cancelbtn {
+        width: auto;
+    }
+}
+#logdiv
+{
+	position:relative;
+	width:500px;
+	height:600px;
+
+	left:20px;
+top:40px;
+}
+#details
+{
+	position:relative;
+	width:700px;
+	height:500px;
+
+top:-500px;
+left:600px;
+}
+#x
+{
+position: relative;
+width:100%;
+height:40%;
+border: 1px solid black;
+background:white;
+}
+
+#tv2
+{
+	
+	width:500px;
+	height:500px;
+}
