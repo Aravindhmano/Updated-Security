@@ -1,0 +1,5 @@
+com\niit\entertainment_backend\model\Telemodel.class
+com\niit\entertainment_backend\App.class
+com\niit\entertainment_backend\dao\Teledao.class
+com\niit\entertainment_backend\config\AppConfig.class
+com\niit\entertainment_backend\impl\Teledaoimpl.class
